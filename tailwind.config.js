@@ -12,6 +12,9 @@ module.exports = {
       white: {
         primary: "#FFFFFF",
       },
+      salmon: {
+        primary: "#EB5857",
+      },
     },
   },
   variants: {
