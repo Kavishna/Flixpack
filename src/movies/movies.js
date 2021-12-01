@@ -1,0 +1,58 @@
+export const movies = [
+  {
+    id: 101,
+    title: "The Witcher",
+    subtitle: "Nightmare of the Wolf",
+    description: "The Witcher Nightmare of the Wolf description",
+    color: "rgba(154, 51, 250, 0.2)",
+  },
+  {
+    id: 102,
+    title: "The Witcher",
+    subtitle: "Nightmare of the Wolf",
+    description: "The Witcher Nightmare of the Wolf description",
+    color: "rgba(250, 201, 51, 0.2)",
+  },
+  {
+    id: 103,
+    title: "The Witcher",
+    subtitle: "Nightmare of the Wolf",
+    description: "The Witcher Nightmare of the Wolf description",
+    color: "rgba(51, 144, 250, 0.2)",
+  },
+  {
+    id: 104,
+    title: "The Witcher",
+    subtitle: "Nightmare of the Wolf",
+    description: "The Witcher Nightmare of the Wolf description",
+    color: "rgba(250, 97, 51, 0.2)",
+  },
+  {
+    id: 105,
+    title: "The Witcher",
+    subtitle: "Nightmare of the Wolf",
+    description: "The Witcher Nightmare of the Wolf description",
+    color: "rgba(51, 241, 250, 0.2)",
+  },
+  {
+    id: 106,
+    title: "The Witcher",
+    subtitle: "Nightmare of the Wolf",
+    description: "The Witcher Nightmare of the Wolf description",
+    color: "rgba(217, 250, 51, 0.2)",
+  },
+  {
+    id: 107,
+    title: "The Witcher",
+    subtitle: "Nightmare of the Wolf",
+    description: "The Witcher Nightmare of the Wolf description",
+    color: "rgba(127, 51, 250, 0.2)",
+  },
+  {
+    id: 108,
+    title: "The Witcher",
+    subtitle: "Nightmare of the Wolf",
+    description: "The Witcher Nightmare of the Wolf description",
+    color: "rgba(51, 218, 108, 0.2)",
+  },
+];
