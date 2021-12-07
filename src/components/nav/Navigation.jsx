@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faList } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -10,16 +10,22 @@ const Navigation = () => {
       </div>
       <div className=" bg-salmon-primary fixed bottom-0 z-20 text-white-primary w-full flex h-16 justify-evenly items-center md:bg-gray-dark md:absolute md:top-0 md:right-0 md:w-72">
         <div className=" cursor-pointer flex justify-center items-center mr-4">
-          <Link to="/my-list">
+          <NavLink
+            className={({ isActive }) => isActive && "underline"}
+            to="/my-list"
+          >
             <FontAwesomeIcon className="text-xl" icon={faList} inverse />
             <span className="ml-3 text-md">My List</span>
-          </Link>
+          </NavLink>
         </div>
         <div className=" cursor-pointer flex justify-center items-center">
-          <Link to="/favourites">
+          <NavLink
+            className={({ isActive }) => isActive && "underline"}
+            to="/favourites"
+          >
             <FontAwesomeIcon className="text-xl" icon={faHeart} inverse />
             <span className="ml-3 text-md">Favourites</span>
-          </Link>
+          </NavLink>
         </div>
       </div>
     </div>

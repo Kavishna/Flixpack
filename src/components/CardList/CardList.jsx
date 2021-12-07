@@ -8,7 +8,6 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 import Card from "./Card/Card";
-import { movies } from "../../movies/movies";
 
 export default class Responsive extends Component {
   constructor(props) {
@@ -29,7 +28,7 @@ export default class Responsive extends Component {
       infinite: true,
       speed: 500,
       slidesToShow: 4,
-      initialSlide: 3,
+      initialSlide: Math.floor(Math.random() * 7 + 1),
       centerMode: true,
       responsive: [
         {
@@ -55,12 +54,13 @@ export default class Responsive extends Component {
     return (
       <div className=" relative bg-gray-light flex items-center justify-center flex-col md:block">
         <div className="w-72 bg-gray-light pt-7 pb-5 text-white-primary text-xl font-semibold md:w-full md:bg-gray-dark md:pl-24">
-          <h2>New Flix</h2>
+          <h2>{this.props.category}</h2>
         </div>
         <Slider ref={(c) => (this.slider = c)} {...settings}>
-          {movies.map((movie) => (
+          {this.props.movies.map((movie) => (
             <Card
               key={movie.id}
+              id={movie.id}
               title={movie.title}
               subtitle={movie.subtitle}
               description={movie.description}

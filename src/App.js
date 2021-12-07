@@ -4,7 +4,7 @@ import Navigation from "./components/nav/Navigation";
 import MyList from "./components/myList/MyList";
 import Favourites from "./components/Favourites/Favourites";
 import { Routes, Route } from "react-router-dom";
-
+import { movies, latest } from "./movies/movies";
 function App() {
   return (
     <div className="font-mono bg-gray-light" style={{ height: "100vh" }}>
@@ -14,7 +14,8 @@ function App() {
           path="/"
           element={
             <>
-              <CardList /> <CardList />
+              <CardList category="New Flix" movies={movies} />{" "}
+              <CardList category="Latest Movies" movies={latest} />
             </>
           }
         />
