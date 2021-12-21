@@ -55,6 +55,13 @@ export const movies = [
     description: "The Witcher Nightmare of the Wolf description",
     color: "rgba(51, 218, 108, 0.2)",
   },
+  {
+    id: 109,
+    title: "The Witcher",
+    subtitle: "Nightmare of the Wolf",
+    description: "The Witcher Nightmare of the Wolf description",
+    color: "rgba(51, 125, 108, 0.2)",
+  },
 ];
 
 export const latest = [
@@ -113,5 +120,12 @@ export const latest = [
     subtitle: "Nightmare of the Wolf",
     description: "The Witcher Nightmare of the Wolf description",
     color: "rgba(51, 118, 108, 0.2)",
+  },
+  {
+    id: 209,
+    title: "The Witcher",
+    subtitle: "Nightmare of the Wolf",
+    description: "The Witcher Nightmare of the Wolf description",
+    color: "rgba(51, 125, 108, 0.2)",
   },
 ];
