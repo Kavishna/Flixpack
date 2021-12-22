@@ -11,7 +11,7 @@ function App() {
       <Navigation />
       <Routes>
         <Route
-          path="/"
+          path="/flixpack"
           element={
             <>
               <CardList category="New Flix" movies={movies} />{" "}
@@ -19,8 +19,8 @@ function App() {
             </>
           }
         />
-        <Route path="/my-list" element={<MyList />} />
-        <Route path="/favourites" element={<Favourites />} />
+        <Route path="/flixpack/my-list" element={<MyList />} />
+        <Route path="/flixpack/favourites" element={<Favourites />} />
       </Routes>
     </div>
   );
