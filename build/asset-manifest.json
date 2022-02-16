@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/flixpack/static/css/main.8d34cc50.chunk.css",
+    "main.js": "/flixpack/static/js/main.db60ee23.chunk.js",
+    "main.js.map": "/flixpack/static/js/main.db60ee23.chunk.js.map",
+    "runtime-main.js": "/flixpack/static/js/runtime-main.05fc42a7.js",
+    "runtime-main.js.map": "/flixpack/static/js/runtime-main.05fc42a7.js.map",
+    "static/css/2.fb3d1b0f.chunk.css": "/flixpack/static/css/2.fb3d1b0f.chunk.css",
+    "static/js/2.1a317d34.chunk.js": "/flixpack/static/js/2.1a317d34.chunk.js",
+    "static/js/2.1a317d34.chunk.js.map": "/flixpack/static/js/2.1a317d34.chunk.js.map",
+    "index.html": "/flixpack/index.html",
+    "static/css/2.fb3d1b0f.chunk.css.map": "/flixpack/static/css/2.fb3d1b0f.chunk.css.map",
+    "static/css/main.8d34cc50.chunk.css.map": "/flixpack/static/css/main.8d34cc50.chunk.css.map",
+    "static/js/2.1a317d34.chunk.js.LICENSE.txt": "/flixpack/static/js/2.1a317d34.chunk.js.LICENSE.txt",
+    "static/media/The Witcher- Nightmare of the Wolf.86b1ba86.jpg": "/flixpack/static/media/The Witcher- Nightmare of the Wolf.86b1ba86.jpg",
+    "static/media/slick-theme.css": "/flixpack/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05fc42a7.js",
+    "static/css/2.fb3d1b0f.chunk.css",
+    "static/js/2.1a317d34.chunk.js",
+    "static/css/main.8d34cc50.chunk.css",
+    "static/js/main.db60ee23.chunk.js"
+  ]
+}
