@@ -9,7 +9,7 @@ import App from "./App";
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename='https://kavishna.github.io/flixpack/'>
       <App />
     </BrowserRouter>
   </Provider>,
